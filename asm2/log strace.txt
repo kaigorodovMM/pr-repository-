@@ -1,0 +1,5 @@
+execve("./hello0", ["./hello0"], 0x7fff8227fc80 /* 46 vars */) = 0
+write(1, "Hello world!\n", 13)          = 13
+exit(13)                                = ?
++++ exited with 13 +++
+
