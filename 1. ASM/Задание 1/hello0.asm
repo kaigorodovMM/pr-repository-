@@ -21,6 +21,6 @@ _start:                            ; точка входа в программу
 	syscall
     
 err:    
-    mov edi, eax                   ; rdi <- eax (код возврата - число записанных символов)
+    mov edi, eax                   ; rdi <- eax (код возврата)
     mov rax, 60                    ; 60 - номер системного вызова exit
     syscall                        ; выполняем системный вызов exit
