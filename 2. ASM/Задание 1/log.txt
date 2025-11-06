@@ -1,0 +1,7 @@
+execve("./str", ["./str"], 0x7ffe09e4dd30 /* 47 vars */) = 0
+read(0, hello
+"hello\n", 100)                 = 6
+write(1, "\nolleh", 6)                  = 6
+exit(0)                                 = ?
++++ exited with 0 +++
+
