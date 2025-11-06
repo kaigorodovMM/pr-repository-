@@ -1,10 +1,10 @@
 section .bss
-    my_string resb 100   ; буфер для ввода
+    my_string resb 100   ; строка
 
 section .text
     global _start
 
-reverse_string: ; функция обращения строка
+reverse_string: ; функция обращения строки
     ; Помещение исходной строки в стек
     mov r8, 0           ; счётчик цикла
 push_loop:
